@@ -1,0 +1,35 @@
+.todoFormContainer {
+  margin-top: 20px;
+}
+
+.todoFormContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.todoFormContainer input {
+  width: 45%;
+  height: 50px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  padding: 8px 20px;
+
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.todoFormContainer input:first-child {
+  margin-left: 0;
+}
+
+.todoFormContainer input::placeholder {
+  color: rgb(175, 175, 175);
+}
+
+.todoFormContainer input:focus {
+  outline: 1px solid teal;
+}
+
